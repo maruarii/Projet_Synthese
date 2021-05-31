@@ -1,0 +1,47 @@
+Ce projet Synthèse nécessite toute une installation pour tout utilisateur voulons accéder à mon projet et pouvoir le regarder.
+
+Procédures complètes d’installation du projet Unique Shoes :
+	
+	Utilisateur technique et utilisateur non technique: 
+
+		- installer WAMP server (rechercher sur google WAMP server puis l'installer)
+		- créer un dossier local 
+		- mettre les fichier du projet dans ce dossier (tous les fichier html,css,js,php)
+		- lancer les service WAMP server puis attendre icone vert.
+		- dans le panneau Wamp server aller dans l'onglet Apache puis ouvrir le fichier httpd.conf
+		
+		- ajouter ce code a la fin afin de créer la connexion localhost au dossier:
+ 
+		Listen 8001
+
+		<VirtualHost *:8001>
+    		DocumentRoot "G:\Localhost Wamp\WEB"
+		</VirtualHost>
+
+		<Directory "G:\Localhost Wamp\WEB">
+ 		AllowOverride all
+  		Options Indexes FollowSymLinks
+  		Allow from All
+  		Require all granted
+		</Directory>
+		
+		- changer le lien "G:\Localhost Wamp\WEB" a votre lien du dossier créer a l'étape 2
+		- maintenant aller sur google et entrer comme lien http://localhost:8001
+		- il est important de créer la base de donner avant de lancer mon site Web
+		- aller sur http://localhost/phpmyadmin/ et connecter vous (util:root mdp: il n'y a pas de mot de passe)
+		
+
+		- copier le code puis lancer dans l’onglet SQL de PHPmyadmin afin de créer la base de donner :
+
+		create database ecom_db character set utf8;
+		create user 'ecom_user'@'localhost' identified by 'AAAaaa111';
+		grant all on ecom_db.* to 'ecom_user'@'localhost';
+ 
+		- à l'aide du fichier que je vous es ajouter dans mon repo ecom_bd.sql importer cette base de donner dans le vôtre ecom_db c'est à dire la bdd que vous venais de créer dans l'onglet importer de la bdd ecom_bd.
+	
+		
+		- Maintenant vous pouvais regarder et apprécier mon Site Web.
+
+
+		
+		
