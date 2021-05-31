@@ -1,0 +1,229 @@
+/* //////////////////////////////////////////////// */
+/*                  panier                          */
+/* //////////////////////////////////////////////// */
+
+.container-main-panier
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-panier-fav
+{
+    width: 70%;
+    height: 100%;
+    padding: 50px;
+}
+
+.container-panier
+{
+    width: 70%;
+
+    position: relative;
+    left: 100%;
+
+    transform: translate(-100%);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.box-panier
+{
+    border-bottom: 1px solid grey;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.panier-title
+{
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.panier-image
+{
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 30%;
+    height: 100%;
+}
+
+.panier-image img
+{
+    width: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+}
+
+.panier-desc
+{
+    width: 70%;
+    height: 100%;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-section1
+{
+    display: flex;
+    flex-direction: row;
+
+    padding: 10px;
+}
+
+.desc-name
+{
+    width:80%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.desc-price
+{
+    width:20%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.desc-section2-desc
+{
+    width: 60%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 30px;
+
+    color: grey;
+
+}
+
+.desc-section3
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.desc-section-button
+{
+    position: relative;
+    top: 100%;
+    background-color: white;
+
+    transform: translate(0%,-100%);
+    color: grey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-left: 10px;
+    text-decoration: underline;
+
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.desc-section-button:hover
+{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.container-recapitulatif
+{
+    width: 20%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.recap-section1
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.recap-section2
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.recap-section3
+{
+    width: 100%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+}
+
+.recap-section4
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-recap-section2
+{
+    width: 100%;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.price-section2
+{
+    width: 50%;
+    
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.button-recap-section2
+{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    height: 70px;
+    margin: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.button-paypal-recap-section2
+{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+
+    height: 70px;
+    margin: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+

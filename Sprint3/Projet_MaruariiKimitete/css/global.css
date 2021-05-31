@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+p
+{
+    font-family: 'Lobster', sans-serif;
+}
+
+/* //////////////////////////////////////////////// */
+/*                  index                           */
+/* //////////////////////////////////////////////// */
+
+/* probleme container box 100% height dépasse le container */
+.container-description
+{
+    width: 100%;
+    height: 50vh;
+
+}
+
+.titre-section
+{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Lobster', sans-serif;
+    font-weight: bold;
+}
+
+.container-box
+{
+    height: 100%;
+    display: flex;
+}
+
+.box-description-txt
+{
+    width: 50%;
+    /* top right bottom left */
+    padding: 100px 50px 20px 100px;
+
+    font-size: 20px;
+
+}
+
+
+.box-description-shoes
+{
+    position: relative;
+    top: 10%;
+
+    width: 50%;
+}
+
+/* weird top */
+#shoes-desc
+{
+    width: 38vh;
+
+    position: relative;
+    left: 60%;
+    top: 40%;
+
+    transform: rotate(10deg); 
+}
+
+.container-carouselle
+{
+
+    border-top: 2px solid black;
+    background-color: black;
+
+    width: 100%;
+    height: 50vh;
+}
+
+.container-carouselle .titre-section
+{
+
+    color: white;
+}
+
+.carousel-images img
+{
+ 
+    width: 400px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.container-video
+{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 50vh;
+}
+
+.container-video video
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container-info
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-info img
+{   
+    border-radius: 50px ;
+    border: 2px solid darkcyan;
+    padding: 20px;
+    margin-top: 25px;
+    margin-right: 50px;
+    width: 10vh;
+    height: 10vh;
+}
+
+.carousel-position
+{
+    height: 91vh;
+
+}
+
+.position-txt
+{
+    padding-top: 100px;
+    font-size: 50px;
+    
+}
+
+.container-card
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 50px;
+    margin-right: 130px;
+}
+
+.txt-card
+{
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.position-card
+{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.profile-card img
+{
+    
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    width: 100%;
+
+    border-radius: 50px;
+}
+
+.container-image-index
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.image-index
+{
+    background-image: url("../images/img-index2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 90%;
+
+    border: 1px solid black;
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+    filter: blur(3px);
+
+    transition-duration: 0.5s ;
+}
+
+.image-index:hover
+{
+    filter: blur(0px);
+}
+
+.titre-image-index
+{
+   color: white; 
+   padding: 50px;
+
+   font-size: 40px;
+   filter: blur(0px);
+   font-family: nikeFont;
+    font-weight: bold;
+}
+
+.button-index
+{
+    margin-left: 100px;
+    padding-top:10px;
+    padding-left:20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.4) ;
+
+    width: 200px;
+    height: 50px;
+
+    text-align: center;
+    color: black;
+    font-family: nikeFont;
+    font-size: 15px;
+
+    transition-duration: 0.5s;
+}
+
+.button-index:hover
+{
+    
+    background-color: rgba(255, 255, 255, 0.8) ;
+
+}
+
+.button-index a
+{
+    color: black;
+}
